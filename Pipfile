@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+langchain = "*"
+python-dotenv = "*"
+langserve = {extras = ["all"] }
+langgraph = "*"
+fastapi = "*"
+playwright = "*"
+langchainhub = "*"
+duckduckgo-search = "*"
+langchain-openai = "*"
+grandalf = "*"
+
+[dev-packages]
+nest-asyncio = "*"
+ipykernel = "*"
+
+[requires]
+python_version = "3.11"
